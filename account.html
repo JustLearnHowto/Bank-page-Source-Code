@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Account Details - Bank Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Bank Name - Home</a></li>
+    <li><a href="login.html">Log In</a></li>
+    <li><a href="signup.html">Sign Up</a></li>
+    <li><a href="account.html">Account Details</a></li>
+    <li><a href="logout.html">Log Out</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>Account Details</h1>
+</header>
+
+<main>
+  <h2>Account Balance</h2>
+  <p><?php echo $balance; ?></p>
+
+  <h2>Transaction History</h2>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Description</th>
+      <th>Amount</th>
+    </tr>
+    <?php foreach($transactions as $transaction): ?>
+    <tr>
+      <td><?php echo $transaction['date']; ?></td>
+      <td><?php echo $transaction['description']; ?></td>
+      <td><?php echo $transaction['amount']; ?></td>
+    </tr>
+    <?php endforeach; ?>
+  </table>
+</main>
+</body>
+</html>

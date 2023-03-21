@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - Bank Name</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Bank Name</h1>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="deposit.html">Deposit</a></li>
+        <li><a href="withdraw.html">Withdraw</a></li>
+        <li><a href="transfer.html">Transfer</a></li>
+        <li><a href="logout.html">Log Out</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h2>Account Information</h2>
+    <div class="account-info">
+      <p><strong>Account Number:</strong> <?php echo $account_number; ?></p>
+      <p><strong>Full Name:</strong> <?php echo $full_name; ?></p>
+      <p><strong>Account Balance:</strong> $<?php echo number_format($balance, 2); ?></p>
+    </div>
+    <h2>Recent Transactions</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Amount</th>
+      </tr>
+      <?php foreach ($transactions as $transaction): ?>
+      <tr>
+        <td><?php echo $transaction['date']; ?></td>
+        <td><?php echo $transaction['description']; ?></td>
+        <td><?php echo '$' . number_format($transaction['amount'], 2); ?></td>
+      </tr>
+      <?php endforeach; ?>
+    </table>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2023 Bank Name. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

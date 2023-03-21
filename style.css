@@ -1,0 +1,43 @@
+nav {
+	background-color: #006699;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #003366;
+}
+
+header {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+main {
+	margin: 50px;
+	font-size: 1.2em;
+	line-height: 1.5;
+}

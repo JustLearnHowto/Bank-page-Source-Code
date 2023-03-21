@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Deposit - Bank Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Bank Name - Home</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="accounts.html">Account Details</a></li>
+        <li><a href="logout.html">Log Out</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Deposit Money</h1>
+</header>
+
+<main>
+    <form action="deposit.php" method="post">
+        <label for="amount">Amount to Deposit:</label>
+        <input type="number" id="amount" name="amount" required>
+        <input type="submit" value="Deposit">
+    </form>
+</main>
+</body>
+</html>

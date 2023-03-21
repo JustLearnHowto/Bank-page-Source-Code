@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transfer Funds - [Bank Name]</title>
+</head>
+<body>
+<header>
+  <h1>[Bank Name]</h1>
+  <link rel="stylesheet" href="style.css">
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="/logout">Log Out</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h2>Transfer Funds</h2>
+  <form action="/transfer" method="post">
+    <label for="recipient">Recipient:</label>
+    <input type="text" id="recipient" name="recipient" required><br><br>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required><br><br>
+    <label for="memo">Memo:</label>
+    <input type="text" id="memo" name="memo"><br><br>
+    <input type="submit" value="Transfer">
+  </form>
+</main>
+<footer>
+  <p>&copy; [year] [Bank Name]. All rights reserved.</p>
+</footer>
+</body>
+</html>

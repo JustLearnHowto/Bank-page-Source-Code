@@ -1,0 +1,3 @@
+username:password:full_name:account_number:balance
+john:password123:John Smith:1234567890:5000
+jane:password456:Jane Doe:0987654321:10000

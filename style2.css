@@ -1,0 +1,70 @@
+nav {
+	background-color: #006699;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #003366;
+}
+
+header {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+main {
+	margin: 50px;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+
+input[type="submit"] {
+	background-color: #006699;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #003366;
+}

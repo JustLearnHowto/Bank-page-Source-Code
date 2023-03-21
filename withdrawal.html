@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Withdrawal - Bank Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Bank Name - Home</a></li>
+        <li><a href="accounts.html">Accounts</a></li>
+        <li><a href="deposit.html">Deposit</a></li>
+        <li><a href="withdrawal.html">Withdrawal</a></li>
+        <li><a href="transfer.html">Transfer</a></li>
+        <li><a href="logout.html">Log Out</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Withdrawal</h1>
+</header>
+
+<main>
+    <form action="withdrawal.php" method="POST">
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" id="amount" min="0" step="0.01" required>
+        <button type="submit">Withdraw</button>
+    </form>
+</main>
+</body>
+</html>

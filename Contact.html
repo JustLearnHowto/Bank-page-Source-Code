@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Bank Name</title>
+    <link rel="stylesheet" href="stylecs.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Bank Name - Home</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="account.html">Account Details</a></li>
+        <li><a href="deposit.html">Deposit</a></li>
+        <li><a href="withdraw.html">Withdraw</a></li>
+        <li><a href="transfer.html">Transfer</a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<main>
+    <div class="contact-info">
+        <h2>Our Address</h2>
+        <p>123 Bank Street<br>New York, NY 10001</p>
+
+        <h2>Email Us</h2>
+        <p><a href="mailto:info@bankname.com">info@bankname.com</a></p>
+
+        <h2>Call Us</h2>
+        <p>1-800-BANKNAME</p>
+
+        <h2>Follow Us</h2>
+        <div class="social-media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2023 Bank Name</p>
+</footer>
+</body>
+</html>

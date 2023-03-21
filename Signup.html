@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank Name - Signup</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Bank Name - Home</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav>
+<header>
+  <h1>Create a New Account</h1>
+</header>
+<main>
+  <form method="post" action="signup_process.php">
+    <label for="fullname">Full Name:</label>
+    <input type="text" name="fullname" id="fullname" required><br>
+
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required><br>
+
+    <label for="confirmpassword">Confirm Password:</label>
+    <input type="password" name="confirmpassword" id="confirmpassword" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone" id="phone" required><br>
+
+    <label for="address">Address:</label>
+    <textarea name="address" id="address" required></textarea><br>
+
+    <input type="submit" value="Signup">
+  </form>
+</main>
+</body>
+</html>
