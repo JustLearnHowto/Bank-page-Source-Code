@@ -4,7 +4,7 @@ This repository contains the source code for a bank website demo. The website al
 
 ## Website Demo
 
-You can view the demo website by visiting https://hacksxploit.github.io/Bank-page-Source-Code/.
+You can view the demo website by visiting https://JustLearnHowto.github.io/Bank-page-Source-Code/.
 
 ## Technologies Used
 
